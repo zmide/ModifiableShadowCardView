@@ -1,15 +1,15 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 21
     buildToolsVersion "21.1.0"
 
     defaultConfig {
-        applicationId "com.zmide.modifiableshadow"
+        applicationId "com.zmide.ms"
         minSdkVersion 14
         targetSdkVersion 21
         versionCode 1
-        versionName "1.0.0"
+        versionName "1.0"
     }
     buildTypes {
         release {
@@ -20,5 +20,6 @@ android {
 }
 
 dependencies {
-    api fileTree(dir: 'libs', include: ['*.jar'])
+	api 'com.android.support:support-annotations:27.+'
+    compile fileTree(dir: 'libs', include: ['*.jar'])
 }
