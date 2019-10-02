@@ -120,13 +120,6 @@ class CardViewBaseImpl implements CardViewImpl {
     }
 	
 	@Override
-	public void setShadowColor( int color)
-	{
-		mStartColor = color;
-		mEndColor = color;
-	}
-	
-	@Override
 	public void setShadowColor( int startColor, int endColor)
 	{
 		mStartColor = startColor;

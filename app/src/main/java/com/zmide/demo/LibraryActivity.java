@@ -1,7 +1,9 @@
-package com.zmide.ms;
+package com.zmide.demo;
 
-import android.app.*;
-import android.os.*;
+import android.app.Activity;
+import android.os.Bundle;
+import com.zmide.ms.CardView;
+import com.zmide.ms.R;
 
 public class LibraryActivity extends Activity 
 {
